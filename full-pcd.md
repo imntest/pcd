@@ -5,4 +5,5 @@
 <<[an-3-dtg.md]
 <<[an-4-token-auth.md]
 <<[an-5-p2p.md]
-<<[an-6-api.md]
+<<[an-6-stats.md]
+<<[an-7-api.md]
