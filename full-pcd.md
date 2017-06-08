@@ -1,4 +1,4 @@
-<<[1-intro.md]
+<<[all-1-intro.md]
 <<[an-0-get-started.md]
 <<[an-1-access-content.md]
 <<[an-2-downloads.md]
