@@ -268,23 +268,35 @@ public class VocService {
 public InputStream getInputStreamforUrl(String url) throws IOException 
  
 /**
- * API method to start media server. Client must call this before playing cached HLS content.
- * This method is thread safe.
- * This method can be called more than once. Its implementation ensures there is single instance of server running.
- * Also see, {@link #stopMediaServer()}
- * @return - VocResult.isSuccess() returns true if the call succeeded.
- */
-public VocServiceResult startMediaServer() ;
+
+ * API method to start media server. Client must call this before playing cached HLS content.
+
+ * This method is thread safe.
+
+ * This method can be called more than once. Its implementation ensures there is single instance of server running.
+
+ * Also see, {@link #stopMediaServer()}
+
+ * @return - VocResult.isSuccess() returns true if the call succeeded.
+
+ */
+
+public VocServiceResult startMediaServer() ;
  
 /**
- * API method to stop media server. Client must call this once they are done playing cached HLS content.
+
+ * API method to stop media server. Client must call this once they are done playing cached HLS content.
 * This method is thread safe.
- * This method can be called more than once. Its implementation stops media server if running.
+
+ * This method can be called more than once. Its implementation stops media server if running.
 * Also see, {@link #startMediaServer()}
- * @return - VocResult.isSuccess() returns true if the call succeeded.
+
+ * @return - VocResult.isSuccess() returns true if the call succeeded.
 * Note – VocResult.isSuccess() returns true even if there is no instance of media server running.
- */
-public VocServiceResult stopMediaServer() ;
+
+ */
+
+public VocServiceResult stopMediaServer() ;
 
 
 /**
@@ -383,7 +395,8 @@ public class VocConfigBuilder {
      */
     public VocConfigBuilder disableBackgroundDownloads();
 }
-/**
+
+/**
 * Util class for PCD access to help access content and its properties like
 *  ResourcePath
 *  Lookup content based on url/type 
