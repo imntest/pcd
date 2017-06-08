@@ -1,0 +1,1 @@
+#Consumption StatisticsThe client app also has to report consumption stats of a content to help in analysis of content distribution , reporting can be done using  VocService. updateFeedConsumptionStats api.
