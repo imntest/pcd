@@ -10,8 +10,16 @@ A sophisticated Download Manager checks the battery, device storage, network, an
 
 Downloads  continue whether the app is active in the foreground, running in the background, or entirely closed. In addition, the SDK acts as a data cache, providing access to content along with its current download state. 
 
+## Getting Your License Key and Ingesting Content
+
+Before you can begin using the SDK, you need to get your PCD SDK License Key. This is obtained from your Akamai representative. 
+
+You can get started right away using the sample app, but in order to use your own content, you need to ingest content via the API. Talk to your Akamai representative about this. 
+
 ## Audience
 
 This document is for developers implementing the PCD SDK; deep knowledge of Android and/or iOS is assumed. 
 
 There are separate instructions for Android and iOS. Configuring your project to support these platforms is covered in the following chapters.
+
+
