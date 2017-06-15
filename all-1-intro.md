@@ -18,6 +18,7 @@ Once you have your SDK License Key, you can get started right away using the sam
 
 ## Audience
 
+
 This document is for developers implementing the PCD SDK; deep knowledge of Android and/or iOS is assumed. 
 
 There are separate instructions for Android and iOS. Using the PCD SDK with both platforms is covered in the following chapters. 
