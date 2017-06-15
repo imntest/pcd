@@ -10,9 +10,7 @@ The basic steps for SDK setup are initialization followed by registration. Conte
 
 Required gradle dependencies
 
-* ```compile 'com.google.android.gms:play-services-base:7.0.0'```
-* ```compile 'com.google.android.gms:play-services-gcm:7.0.0'```
-* ```compile 'com.google.android.gms:play-services-ads:7.0.0'```
+*compile 'com.google.android.gms:play-services-gcm:9.4.0'
 
 ## SDK Contents
 When you download the PCD SDK zip, the contents include: 
